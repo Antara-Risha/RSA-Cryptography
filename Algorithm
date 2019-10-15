@@ -1,9 +1,6 @@
 Take p & q . [ p&q is prime number]
-For public key:  choose e where e is an integer & and is not a factor of n. again 1<e<Q(n).
+For public key:  choose e where e is an integer  and is not a factor of n. again 1<e<Q(n).
 For private key: Q(n)=(p-1)(q-1).
-Find d where d is the inverse of (e mod Q(n)).
+Find d where d is the inverse of (e mod Q(n))/[d=(e mod Q(n))^-1].
 For encryption (p^e mod n) [p is the positional value of alphabet chart ].
-For Decryption (p^d mod n) [ p is the positional value of alphabet chart].
-
- 
- 
+For Decryption (p^d mod n) [ p is the positional value of alphabet chart]
